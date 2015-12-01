@@ -32,7 +32,16 @@
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/favicon/favicon.png" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+ <style>
+
+    .dropdown:hover .dropdown-menu {
+      display: block;
+     
+    }
+  </style></head>
+
 
 <body>
 
@@ -149,16 +158,17 @@
 <div class="content">
   <div class="container">
 
-    <h2>Data Satu</h2>
-    <p class="big grey">Tabel Contoh</p>
+    <h2>Mahasiswa</h2>
+    <p class="big grey">Cuti</p>
     <hr />
 
+<!-- ini form -->
 <div class="form">
   <!-- Register form (not working)-->
   <form class="form-horizontal" />
     <!-- Select box -->
     <div class="control-group">
-      <label class="control-label" for="select">Drop Down</label>
+      <label class="control-label" for="select">Pernah Cuti</label>
       <div class="controls">                               
         <select>
         <option />&nbsp;
@@ -169,15 +179,48 @@
         <option />5
         </select>  
       </div>
-    </div>                                           
+    </div>         
+
+    <div class="control-group">
+      <label class="control-label" for="select">Jumlah Cuti</label>
+      <div class="controls">                               
+        <select>
+        <option />&nbsp;
+        <option />1
+        <option />2
+        <option />3
+        <option />4
+        <option />5
+        </select>  
+      </div>
+    </div>           
+
+    <div class="control-group">
+      <label class="control-label" for="select">Periode Cuti</label>
+      <div class="controls">                               
+        <select>
+        <option />&nbsp;
+        <option />1
+        <option />2
+        <option />3
+        <option />4
+        <option />5
+        </select>  
+      </div>
+    </div>       
+
+              
                                                                                     
     <!-- Buttons -->
     <div class="form-actions">
       <!-- Buttons -->
-      <button type="submit" class="btn">Register</button>
+      <button type="submit" class="btn btn-primary btn-lg">Tampilkan Data</button>
       <button type="reset" class="btn">Reset</button>
     </div>
-  </form>
+    </form> 
+<!-- ini akhir form -->
+
+    <!-- box 
                   <div class="row">
 
                       <div class="span4">
@@ -202,6 +245,7 @@
                       </div>
 
                     </div>
+  box -->
 
                     <div class="row">
 
